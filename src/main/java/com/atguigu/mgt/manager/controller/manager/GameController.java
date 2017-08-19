@@ -22,6 +22,7 @@ import com.github.pagehelper.PageInfo;
 @Controller
 public class GameController {
    
+    
     @Autowired
     gameService gameService;
     
