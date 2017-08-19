@@ -29,6 +29,7 @@ public class MessageController {
         boolean flag = messageService.delete(id);
         
         return "forward:/manager/message/list";
+        
     }
     
     

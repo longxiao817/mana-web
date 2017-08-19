@@ -91,6 +91,7 @@ public class GameController {
     @RequestMapping("/delete")
     public String gameDelete(@RequestParam(value="id",defaultValue="")Integer id){
         
+        
         gameService.gameDelete(id);
         
         return "redirect:/manager/game/list";
