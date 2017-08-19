@@ -5,8 +5,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+<%
+pageContext.setAttribute("ctp", request.getContextPath());
+%>
 </head>
 <body>
-	<a>去主界面</a>
+	<a href="${ctp}/hello">去主界面</a>
+	${swu }
 </body>
 </html>
