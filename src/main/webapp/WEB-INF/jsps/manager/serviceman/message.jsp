@@ -21,6 +21,7 @@
 	cursor: pointer;
 }
 
+
 table tbody tr:nth-child(odd) {
 	background: #F4F4F4;
 }

@@ -13,6 +13,7 @@
     <property name="annotationFontName" value="宋体"></property>
   </bean>
 
+
   <bean id="processEngine" class="org.activiti.spring.ProcessEngineFactoryBean">
     <property name="processEngineConfiguration" ref="processEngineConfiguration" />
   </bean>

@@ -15,6 +15,7 @@
 <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
 </context:component-scan>
 
+
 <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
 	<property name="username" value="root"></property>
 	<property name="password" value="123456"></property>
