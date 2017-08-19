@@ -320,6 +320,7 @@ textarea {
 		$("#replyModal").modal("show");
 	})
 	
+	
 	//删除回复
 	$(".deleteBtn").click(function(){
 		var d_id = $(this).attr("d_id")

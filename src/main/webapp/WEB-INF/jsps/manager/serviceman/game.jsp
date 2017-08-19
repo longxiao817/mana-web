@@ -362,6 +362,7 @@ textarea {
 			tabEle.find("tbody").append(tr);
 		})
 		
+		
 	}
 	//页面加载完成后就调用
 	$(function(){

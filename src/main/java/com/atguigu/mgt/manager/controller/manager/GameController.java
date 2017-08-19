@@ -88,6 +88,7 @@ public class GameController {
      * @param id
      * @return
      */
+    
     @RequestMapping("/delete")
     public String gameDelete(@RequestParam(value="id",defaultValue="")Integer id){
         

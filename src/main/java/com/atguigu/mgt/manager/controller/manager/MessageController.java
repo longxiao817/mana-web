@@ -33,6 +33,7 @@ public class MessageController {
     }
     
     
+    
     @RequestMapping("/list")
     public String getAllByCondition(@RequestParam(value="pn",defaultValue="1")Integer pn,
             @RequestParam(value="ps",defaultValue="5")Integer ps,Model model,
